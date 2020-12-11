@@ -1,0 +1,431 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Abel;
+}
+
+@font-face {
+  src: url(../fonts/Abel-Regular.ttf);
+  font-family: Abel;
+}
+
+@font-face {
+  src: url(../fonts/Allura-Regular.ttf);
+  font-family: Allura;
+}
+
+.handwriting {
+  font-family: Allura !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.width100,img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.blockPaddingTop {
+  padding-top: 30px;
+}
+
+.blockPaddingBottom {
+  padding-bottom: 50px;
+}
+
+.lineMarginBottom {
+  margin-bottom: 40px;
+}
+
+.buttonLinkPadding {
+  padding: 40px 40px;
+}
+
+.blueBackground {
+  background-color: #0077ff;
+}
+
+.whiteColor {
+  color: #ffffff;
+}
+
+.fedoraHatClipPath,nav ul li a:hover {
+  clip-path: polygon(21% 66%, 4% 72%, 30% 94%, 69% 85%, 94% 70%, 78% 63%, 73% 13%, 56% 5%, 41% 7%, 35% 4%, 28% 10%, 22% 24%);
+}
+
+.fedoraHat2ClipPath {
+  clip-path: polygon(2% 78%, 8% 72%, 14% 76%, 24% 76%, 24% 51%, 26% 29%, 33% 17%, 44% 21%, 51% 19%, 58% 17%, 66% 20%, 73% 27%, 76% 39%, 77% 56%, 79% 74%, 91% 77%, 97% 85%, 94% 91%, 69% 95%, 37% 94%, 18% 91%, 6% 87%);
+}
+
+.trilbyHatClipPath {
+  clip-path: polygon(27% 85%, 53% 88%, 90% 82%, 100% 72%, 91% 66%, 78% 62%, 76% 43%, 73% 13%, 51% 5%, 22% 13%, 20% 43%, 19% 62%, 2% 69%, 9% 79%);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a, p, select, input,textarea {
+  font-size: 20px;
+}
+
+p {
+  font-weight: 500;
+}
+
+.textAlignJustify {
+  text-align: justify;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.wrapper {
+  width: 1280px;
+}
+
+.marginCenter {
+  margin: 0px auto;
+}
+
+.displayFlex {
+  display: flex !important;
+}
+
+.displayNone {
+  display: none;
+}
+
+.justifyContentSpaceBetween {
+  justify-content: space-between;
+}
+
+.alignItemsCenter {
+  align-items: center;
+}
+
+.justifyContentCenter {
+  justify-content: center;
+}
+
+.justifyContentFlexEnd {
+  justify-content: flex-end;
+}
+
+.flexDirectionColumn {
+  flex-direction: column !important;
+}
+
+#logo {
+  width: 79px;
+}
+
+#signature {
+  width: 130px;
+}
+
+.blueColor {
+  color: #0077ff;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+header {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 500;
+}
+
+.whiteBackground {
+  background-color: #ffffff;
+}
+
+#backgroundImage1 {
+  background-image: url("../img/store2.jpg");
+}
+
+#backgroundImage2 {
+  background-image: url("../img/vinyl.jpg");
+}
+
+#backgroundImage3 {
+  background-image: url("../img/brokenCD.jpg");
+}
+
+#backgroundImage4 {
+  background-image: url("../img/recordingStudio2.jpg");
+}
+
+#backgroundImage5 {
+  background-image: url("../img/shootingATVSpot.jpg");
+}
+
+#backgroundImage6 {
+  background-image: url("../img/recordingRadioCommercial.jpg");
+}
+
+#backgroundImage7 {
+  background-image: url("../img/rescue.jpg");
+}
+
+#backgroundImage8 {
+  background-image: url("../img/frankSinatra.jpg");
+}
+
+#backgroundImage9 {
+  background-image: url("../img/museum2.jpg");
+}
+
+#backgroundImage10 {
+  background-image: url("../img/grammy.jpg");
+}
+
+#backgroundImage11 {
+  background-image: url("../img/bringingPeopleTogether.jpg");
+}
+
+#backgroundImage12 {
+  background-image: url("../img/sinatraRecordsBuilding.jpg");
+}
+
+.backgroundPadding {
+  padding-bottom: 400px;
+}
+
+.backgroundSizeCover {
+  background-size: cover;
+}
+
+.backgroundAttachmentFixed {
+  background-attachment: fixed;
+}
+
+.height100vh {
+  height: 100vh;
+}
+
+.positionAbsolute {
+  position: absolute;
+}
+
+.positionRelative {
+  position: relative;
+}
+
+.positionFixed {
+  position: fixed;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 34px;
+}
+
+h5 {
+  font-size: 32px;
+}
+
+.width50 {
+  width: 50%;
+}
+
+.bucketHatClipPath {
+  clip-path: polygon(12% 70%, 2% 79%, 14% 89%, 38% 96%, 72% 95%, 97% 80%, 82% 71%, 78% 62%, 75% 9%, 66% 5%, 56% 4%, 44% 3%, 33% 5%, 25% 8%, 19% 12%, 17% 62%);
+}
+
+.bottom50 {
+  bottom: 50px;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.homburgHatClipPath {
+  clip-path: polygon(2% 71%, 11% 88%, 25% 92%, 46% 97%, 76% 91%, 98% 72%, 88% 76%, 82% 73%, 80% 42%, 70% 17%, 50% 5%, 35% 13%, 23% 38%, 20% 71%, 11% 74%);
+}
+
+.bottom100 {
+  bottom: 100px;
+}
+
+#hamburger {
+  font-size: 30px;
+}
+
+.alignItemsBaseline {
+  align-items: baseline !important;
+}
+
+.mobileLinksPadding {
+  padding: 25px 0px;
+}
+
+.width25 {
+  width: 25%;
+}
+
+.albumWidth {
+  width: 23%;
+}
+
+.width45 {
+  width: 45%;
+}
+
+.flexWrapWrap {
+  flex-wrap: wrap;
+}
+
+.expandingListPadding {
+  padding: 20px 0px;
+}
+
+.bottomLinkListPadding {
+  padding: 40px 0px;
+}
+
+.fieldBorderRadius {
+  border-radius: 10px;
+}
+
+.fieldPadding {
+  padding: 10px 10px;
+}
+
+input {
+  border: 0px solid #000000;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+}
+
+.bottomBorderRadius {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.redColor {
+  color: #ff0000;
+}
+
+.greenColor {
+  color: #00ff0c;
+}
+
+#content {
+  display: none;
+}
+
+.equalize {
+  padding-top: 200px;
+}
+
+.padding0 {
+  padding: 0px !important;
+}
+
+@media screen and (max-width: 1280px) {
+  .wrapper {
+    width: 85%;
+  }
+  .expandingListPadding {
+    padding: 12px 0px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  h3 {
+    font-size: 26px;
+  }
+  a,p,select,input,textarea {
+    font-size: 18px;
+  }
+  .buttonLinkPadding {
+    padding: 30px 30px;
+  }
+  .laptopFlexDirectionColumn {
+    flex-direction: column;
+  }
+  .laptopNavLinkListPadding {
+    padding: 30px 0px;
+  }
+  .laptopWidth45 {
+    width: 45%;
+  }
+  .albumMargin {
+    margin-bottom: 20px;
+  }
+  .laptopWidth100 {
+    width: 100%;
+  }
+  .laptopPaddingTop {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .tabletDisplayNone{
+    display: none !important;
+  }
+  .tabletDisplayFlex {
+    display: flex;
+  }
+  .wrapper {
+    width: 95%;
+  }
+  .tabletDisplayNone {
+    display: none !important;
+  }
+  .tabletWidth95{
+    width: 95%;
+  }
+  .tabletJustifyContentCenter {
+    justify-content: center;
+  }
+  .expandingListPadding {
+    padding: 10px 0px;
+  }
+  .tabletFlexDirectionColumn {
+    flex-direction: column;
+  }
+  .tabletWidth100 {
+    width: 100%;
+  }
+  .tabletEqualize {
+    padding-top: 200px;
+  }
+  .tabletWidth95 {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .mobileWidth95 {
+    width: 95%;
+  }
+  .mobileJustifyContentCenter {
+    justify-content: center;
+  }
+}

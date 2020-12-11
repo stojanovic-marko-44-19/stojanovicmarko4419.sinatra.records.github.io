@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Sinatra Records &#124; Contact</title>
+        <meta name="keywords" content="Sinatra, Records, album, deal, production"/>
+        <meta name="description" content=""/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="assets/css/fullmod.min.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <link rel="shortcut icon" href="assets/img/smallLogo.ico"/>
+    </head>
+    <body>
+        <header class="width100 whiteBackground positionFixed">
+            <div class="wrapper marginCenter displayFlex justifyContentSpaceBetween alignItemsCenter laptopFlexDirectionColumn">
+                <div id="home" class="displayFlex">
+                    <div id="logo">
+                        <a href="index.html">
+                            <img src="assets/img/logo.png" alt="Logo of Sinatra Records"/>
+                        </a>
+                    </div>
+                    <div id="signature">
+                        <a href="index.html">
+                            <h1 class="handwriting blueColor">Sinatra Records</h1>
+                        </a>
+                    </div>
+                </div>
+                <nav class="displayFlex flexDirectionColumn alignItemsBaseline">
+                    <ul id="navLinkList" class="displayFlex tabletDisplayNone laptopNavLinkListPadding">
+                    </ul>
+                    <span id="hamburger" class="fa fa-bars blueBackground fedoraHatClipPath displayNone tabletDisplayFlex buttonLinkPadding whiteColor" aria-hidden="true"></span>
+                    <ul id="mobileNavLinkList" class="displayNone flexDirectionColumn textAlignCenter">
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="width100 blueBackground height100vh positionRelative tabletDisplayNone fadeScroll">
+            <img src="" class="width100 height100vh fedoraHat2ClipPath" alt="" id="slide"/>
+            <div class="width100 displayFlex flexDirectionColumn alignItemsCenter positionAbsolute justifyContentFlexEnd bottom100">
+                <h2 class="handwriting blueColor">Sinatra Records</h2>
+                <h3 class="handwriting blueColor">A Grammy Award winning record company</h3>
+                <h4 class="handwriting blueColor lineMarginBottom">Contact</h3>
+            </div>
+        </div>
+        <div class="width100 blockPaddingTop blockPaddingBottom tabletEqualize fadeScroll">
+            <div class="wrapper marginCenter">
+                <div id="backgroundImage12" class="width50 tabletWidth95 backgroundSizeCover backgroundPadding homburgHatClipPath positionRelative displayFlex justifyContentCenter floatLeft backgroundAttachmentFixed">
+                    <h4 class="handwriting blueColor positionAbsolute bottom50">Sinatra Records's building</h4>
+                </div>
+                <h2 class="handwriting textAlignCenter blueColor">Online contact procedure of Sinatra Records</h2>
+                <p class="blueColor textAlignJustify lineMarginBottom">The first thing you got to do is to fill out the contact form. You will be told if the particuler field is mandatory or not. Also you shall be told if you did not fill any particular field right. If you want to buy a specific album after selecting the name of any title you will be shown delivery costs by country in these United States as well as delivery costs worldwide. The costs are the same for all albums of all formats. After the sending within 48 hours to the e-mail address you left us you will receive a bill for the purchased album with the account number to which you need to pay for it or confirmation of a meeting with a representative of Sinatra Records in our building in Brooklyn at the chosen time if you want to become our partner. If you though want to complain about the lack of the product you need to select a specific defect. If the reason for sending your message is a compliment, suggestion or specific question we will be willing to thank you or respond with the desired information.</p>
+            </div>
+        </div>
+        <div id="contactForm" class="width100 blueBackground blockPaddingTop blockPaddingBottom">
+            <h2 class="handwriting textAlignCenter whiteColor">Contact form</h2>
+            <div class="wrapper marginCenter">
+                <form method="GET" action="#" name="onlineContactForm" id="onlineContactFormData" onsubmit="return contactFormChecking();">
+                    <div class="displayFlex justifyContentSpaceBetween tabletFlexDirectionColumn">
+                        <div class="displayFlex flexDirectionColumn width45 tabletWidth100">
+                            <h3 class="whiteColor handwriting textAlignCenter">First name</h3>
+                            <input type="text" name="firstName" id="userFirstName" class="fieldBorderRadius fieldPadding blueColor"/>
+                            <span id="firstNameMessage" class="whiteColor">This field is required</span>
+                        </div>
+                        <div class="displayFlex flexDirectionColumn width45 tabletWidth100">
+                            <h3 class="whiteColor handwriting textAlignCenter">Last name</h3>
+                            <input type="text" name="lastName" id="userLastName" class="fieldBorderRadius fieldPadding blueColor"/>
+                            <span id="lastNameMessage" class="whiteColor">This field is required</span>
+                        </div>
+                    </div>
+                    <div class="displayFlex flexDirectionColumn blockPaddingTop">
+                        <h3 class="whiteColor handwriting textAlignCenter">Email address</h3>
+                        <input type="text" name="emailAddress" id="userEmailAddress" class="fieldBorderRadius fieldPadding blueColor"/>
+                        <span id="emailMessage" class="whiteColor">This field is required</span>
+                    </div>
+                    <div class="displayFlex flexDirectionColumn blockPaddingTop">
+                        <h3 class="whiteColor handwriting textAlignCenter">Reason for contact</h3>
+                        <select name="reasonForContact" id="userReasonForContact" class="fieldBorderRadius fieldPadding blueColor">
+                            <option value="0">Choose a reason within a category</option>
+                            <optgroup label="Partnership">
+                                <option value="1">Partnership in album production</option> 
+                                <option value="2">Partnership in album distribution</option>
+                                <option value="3">Partnership in both album production and distribution</option> 
+                            </optgroup>
+                            <optgroup label="Purchase of a particular album">
+                                <option value='4'>Strangers in the Night</option>
+                                <option value='5'>Nice 'n' Easy</option>
+                                <option value='6'>Ol' Blue Eyes Is Back</option>
+                                <option value='7'>The Shelter of Your Arms</option>
+                                <option value='8'>A Bigger Bang</option>
+                                <option value='9'>Elvis Is Back!</option>
+                                <option value='10'>25</option>
+                                <option value='11'>Memory Almost Full</option>
+                                <option value='12'>Set the Night to Music</option>
+                                <option value='13'>Back to Basics</option>
+                                <option value='14'>Spirit in the Dark</option>
+                                <option value='15'>Your Heart's in Good Hands</option>
+                                <option value='16'>How Does That Grab You?</option>
+                                <option value='17'>We Are in Love</option>
+                                <option value='18'>Seattle</option>
+                                <option value='19'>Classic Songs, My Way</option>
+                            </optgroup>
+                            <optgroup label="Non-commercial reasons">
+                                <option value="20">Complain</option> 
+                                <option value="21">Compliment</option>
+                                <option value="22">Specific question</option>
+                            </optgroup>
+                        </select>
+                        <span id="reasonForContactMessage" class="whiteColor">You need to choose a reason for contact</span>
+                    </div>
+                    <div id="partnership" class="displayNone justifyContentSpaceBetween blockPaddingTop tabletFlexDirectionColumn">
+                        <div class="displayFlex flexDirectionColumn width100">
+                            <h3 class="whiteColor handwriting textAlignCenter">You want to become our partner as a/an</h3>
+                            <select name="partner" id="userPartner" class="fieldBorderRadius fieldPadding blueColor">
+                                <option value="0">Choose</option> 
+                                <option value="1">Independent artist</option> 
+                                <option value="2">Record company</option>
+                            </select>
+                            <span id="partnerMessage" class="whiteColor">You need to select your current status</span>
+                        </div>
+                        <div id="nameOfTheCompany" class="displayNone flexDirectionColumn">
+                            <h3 class="whiteColor handwriting textAlignCenter">Name of the company you represent</h3>
+                            <input type="text" name="company" id="userCompany" class="fieldBorderRadius fieldPadding blueColor"/>
+                            <span id="companyMessage" class="whiteColor">This field is required</span>
+                        </div>
+                    </div>
+                    <div id="meeting" class="displayNone justifyContentSpaceBetween blockPaddingTop tabletFlexDirectionColumn">
+                        <div class="displayFlex flexDirectionColumn">
+                            <h3 class="whiteColor handwriting textAlignCenter">Desired date of the meetinng</h3>
+                            <input type="date" name="dateOfTheMeeting" id="userDateOfTheMeeting" class="fieldBorderRadius fieldPadding blueColor" min="2021-01-01" max="2021-12-31"/>
+                            <span id="dateOfTheMeetingMessage" class="whiteColor">You need to pick the desired date of the meeting</span>
+                        </div>
+                        <div class="displayFlex flexDirectionColumn">
+                            <h3 class="whiteColor handwriting textAlignCenter">Desired time of the meetinng</h3>
+                            <input type="time" name="timeOfTheMeeting" id="userTimeOfTheMeeting" class="fieldBorderRadius fieldPadding blueColor" min="10:00" max="22:00" oninvalid="setCustomValidity('You have not picked the desired time of the meeting within our business hours! For example: 11:05 AM')"/>
+                            <span id="timeOfTheMeetingMessage" class="whiteColor">You need to pick the desired time of the meeting</span>
+                        </div>
+                    </div>
+                    <div id="desiredFormat" class="displayNone flexDirectionColumn blockPaddingTop">
+                        <h3 class="whiteColor handwriting textAlignCenter">Desired format of the album</h3>
+                        <select name="albumFormat" id="userAlbumFormat" class="fieldBorderRadius fieldPadding blueColor">
+                            <option value="0">Choose a format</option> 
+                            <option value="1">Vinyl</option> 
+                            <option value="2">Compact disc</option>
+                        </select>
+                        <span id="albumFormatMessage" class="whiteColor">You need to select the desired format of a album</span>
+                        <span id="deliveryCostsWithinUS" class="whiteColor textAlignJustify">Delivery costs by US states: New York: Free, Connecticut: &dollar;5.00, Rhode Island: &dollar;7.00, Massachusetts: &dollar;9.00, Vermont: &dollar;11.00, New Hampshire: &dollar;13.00, Maine: &dollar;15.00, New Jersey: &dollar;10.00, Pennsylvania: &dollar;12.00, Delaware: &dollar;14.00, Maryland: &dollar;19.00, Washington DC: &dollar;21.00, West Virginia: &dollar;24.00, Virginia: &dollar;25.00, North Carolina: &dollar;27.00, South Carolina: &dollar;29.00, Georgia: &dollar;30.00, Florida: &dollar;35.00, Alabama: &dollar;32.00, Tennessee: &dollar;34.00, Kentucky: &dollar;36.00, Ohio: &dollar;40.00, Michigan: &dollar;42.00, Indiana: &dollar;44.00, Illinois: &dollar;48.00, Wisconsin: &dollar;50.00, Iowa: &dollar;52.00, Minnesota: &dollar;54.00, Missouri: &dollar;56.00, Arkansas: &dollar;58.00, Mississippi: &dollar;60.00, Louisiana: &dollar;55.00, Texas: &dollar;60.00, Oklahoma: &dollar;62.00, Kansas: &dollar;64.00, Nebraska: &dollar;67.00, South Dakota: &dollar;70.00, North Dakota: &dollar;68.00, Montana: &dollar;71.00, Wyoming: &dollar;73.00, Colorado: &dollar;75.00, New Mexico: &dollar;77.00, Arizona: &dollar;80.00, Utah: dollar;82.00, Idaho: &dollar;84.00, Washington: &dollar;88.00, Oregon: &dollar;90.00, Nevada: &dollar;92.00, California: &dollar;95.00, Alaska: &dollar;98.00, Hawaii: &dollar;100.00</span>
+                        <span id="deliveryCostsAroundTheWorld" class="whiteColor textAlignJustify">Delivery costs around the world: Canada &dollar;50.00, Mexico: &dollar;55.00, South America: &dollar;100.00, Europe: &dollar;105.00, Asia: &dollar;200.00, Africa: &dollar;150.00, Australia and Pacific: &dollar;90.00, Japan: &dollar;120.00</span>
+                    </div>
+                    <div id="homeAddress" class="displayNone flexDirectionColumn blockPaddingTop">
+                        <h3 class="whiteColor handwriting textAlignCenter">Home address</h3>
+                        <input type="text" name="address" id="userAddress" class="fieldBorderRadius fieldPadding blueColor"/>
+                        <span id="addressMessage" class="whiteColor">This field is required</span>
+                    </div>
+                    <div id="complain" class="displayNone flexDirectionColumn blockPaddingTop">
+                        <h3 class="whiteColor handwriting textAlignCenter">Reason for complain</h3>
+                        <select name="reasonForComplain" id="userReasonForComplain" class="fieldBorderRadius fieldPadding blueColor">
+                            <option value="0">Choose a reason</option> 
+                            <option value="1">Empty package</option> 
+                            <option value="2">Physically damaged product</option>
+                            <option value="3">Sound problem</option>
+                            <option value="4">Wrong product</option>
+                        </select>
+                        <span id="reasonForComplainMessage" class="whiteColor">This field is required</span>
+                    </div>
+                    <div class="displayFlex flexDirectionColumn blockPaddingTop blockPaddingBottom">
+                        <h3 class="whiteColor handwriting textAlignCenter">Description</h3>
+                        <textarea name="description" id="userDescription" class="fieldBorderRadius blueColor fieldPadding" rows="10"></textarea>
+                        <span id="descriptionMessage" class="whiteColor">This field is required if reason for the contact is a compliment or a specific question</span>
+                    </div>
+                    <input type="submit" name="send" id="userSend" class="width100 blueColor fieldBorderRadius fieldPadding" value="Send!"/>
+                </form>
+            </div>
+        </div>
+        <div class="width100 blockPaddingTop blockPaddingBottom">
+            <div class="wrapper marginCenter displayFlex justifyContentSpaceBetween tabletFlexDirectionColumn">
+                <div>
+                    <h5 class="handwriting blueColor textAlignCenter">Business hours</h5>
+                    <ul id="businessHourList">
+                    </ul>
+                </div>
+                <div>
+                    <ul id="bottomLinkList" class="displayFlex justifyContentSpaceBetween bottomLinkListPadding">
+                    </ul>
+                </div>
+                <div class="displayFlex alignItemsCenter flexDirectionColumn">
+                    <h5 class="handwriting blueColor textAlignCenter">Sinatra Records</h5>
+                    <p class="blueColor textAlignCenter">Baker Street 2, Brooklyn, NYC, NY, USA</p>
+                    <p class="blueColor textAlignCenter">+381(62) 107-5215</p>
+                    <p class="blueColor textAlignCenter">stojanovicmarkosrbija&#64;gmail&#46;com</p>
+                    <p class="blueColor textAlignCenter">&copy; 2020 All rights reserved</p>
+                    <span class="blueColor">
+                        <a href="style.css" class="blueColor">css</a>
+                        <a href="main.js" class="blueColor">js</a>
+                    </span>
+                </div>
+            </div>
+            <div id="authorMod" class="fullmod padding0">
+                <div class="fullmod-content">
+                    <div class="fullmod-head">
+                        <h2 class="title blueColor handwriting textAlignCenter">The author</h2>
+                        <div class="buttons">
+                            <a href="#" class="btn-close">&times;</a>
+                        </div>
+                    </div>
+                    <div class="fullmod-body wrapper marginCenter displayFlex justifyContentSpaceBetween laptopFlexDirectionColumn flexWrapWrap">
+                        <div class="displayFlex flexDirectionColumn width45 laptopWidth100">
+                            <img src="assets/img/author.jpg" alt="Author"/>
+                        </div>
+                        <div class="displayFlex flexDirectionColumn width45 laptopWidth100 laptopPaddingTop">
+                            <p class="blueColor textAlignJustify">The author of the Sinatra Records's website is a front-end developer Marko Stojanović. He was born on February 11 2001 in Serbian town of Požarevac. He finished Economy And Trade School in his birthplace and in 2019 after defending his graduation works in the fields of Serbian language, monetary economy and banking and statistics he earned title of economic technician. He directed his further education in direction of information technologies and in the same year he was enlisted in Information And Communication Technologies College in Serbian capital Belgrade after passing the exam in the field of mathematics. His capabilities include programming in programming languages C and C&#35;, script language JavaScript, markup language HTML, style sheet language CSS and in domain-specific language of SQL. Besides programming his abilities also include knowledge TCP/IP architecture. In the spare time he enjoys watching movies and listening to jazz music and particulary his favourite performer the legendary Frank Sinatra.</p>
+                        </div>
+                    </div>
+              
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script> 
+        <script src="assets/js/fullmod.min.js">
+        </script>
+        <script type="text/javascript" src="assets/js/main.js">
+        </script>
+    </body>
+</html>
